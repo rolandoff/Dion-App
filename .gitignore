@@ -33,3 +33,6 @@ mobile/android/
 # Test
 coverage/
 .pytest_cache/
+
+# Claude Code internal
+.claude/
