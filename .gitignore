@@ -1,0 +1,35 @@
+# Python / Backend
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.db
+*.db-shm
+*.db-wal
+
+# Env files — never commit secrets
+.env
+.env.local
+
+# Node / Mobile
+node_modules/
+mobile/node_modules/
+.expo/
+dist/
+build/
+web-build/
+
+# iOS / Android (generated — not committed)
+mobile/ios/
+mobile/android/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Test
+coverage/
+.pytest_cache/
